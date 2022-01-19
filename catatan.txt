@@ -1,0 +1,44 @@
+(*) pertemuan18 pagination
+- function tampil mengembalikan array assosiatif, sedangkan mysqli_query mengembalikan objek
+- mysqli_num_rows = return jumlah/nilai pada array berupa angka
+- count = untuk menghitung jumlah elemen array apapun
+- round = membulatkan bil pecahan ke bil desimal terdekatnya
+		  co: 1.2 dibulatkan 1; 1.5 dibulatkan 1; 1,6 dibulatkan 2;
+- floor(lantai) = membulatkan ke bawah
+- ceil (langit2) = membulatkan ke atas
+- ternary
+  				kondisi				   ?  jika true   :	jika false
+  $hal_aktif = ( isset($_GET["hal"]) ) ? $_GET["hal"] : 1;
+- &lt; (less then)=(<)
+- &rt; (greater then)=(>)
+- &laquo; (dua panah kekiri) 
+- &raquo; (dua panah kekanan) 
+
+(*) pertemuan19 live search pake ajax dicopy dari pertemuan17
+- tag script pd index.php disimpan sebelum tag akhir body, agar file diatasnya mereload terlebih dahulu
+- syntax js di script.js harus sama persis seperti yg dicontohkan
+- tombol_cari.addEventListener(''); artinya js tolong carikan elemen tombol_cari, kalo ketemu lakukan sesuatu ketika ada sebuah event(aksi/trigger) yg dijalankan
+- algoritma bikin ajax:
+	1. pd index.php tag script di akhir body (sebelum akhir tag body)
+	2. bikin folder dan file .js
+
+	script.js
+	3. ambil elemen yg dibutuhkan
+	4. tambahkan event ketika keyword ditulis
+	5. buat object ajax
+	6. cek kesiapan ajaxnya
+	7. eksekusi ajax
+
+	folder ajax
+	8. buat folder ajax dan filenya (.php dalam kasus ini)
+
+(*) pertemuan20 live search pake jquery
+- donwload di jquery.com dan pilih file yg sudah di kompress, dan save di folder js atau yg sama dgn script.js
+- sintax ajax diganti dgn jquery
+- $ = jQuery | artinya dollar sm dgn jquery
+- tag script pd index.php boleh disimpan di head jika pake jquery, karena document (index.php) sudah di load terlebih dahulu pake sintax $(document) pd script.js
+- selanjutnya bisa dilihat scrip.js hehe
+- hilangkan button cari
+- tambah icon loader.gif, simpan gambar di folder img, panggil di index.php, ubah script.js
+
+
