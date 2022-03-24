@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 19, 2022 at 09:33 AM
+-- Generation Time: Mar 24, 2022 at 01:36 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.13
 
@@ -18,10 +18,8 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_chelsea`
+-- Database: `db_wpu_php_dasar`
 --
-CREATE DATABASE IF NOT EXISTS `db_chelsea` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `db_chelsea`;
 
 -- --------------------------------------------------------
 
@@ -90,8 +88,7 @@ INSERT INTO `tbl_user` (`id`, `username`, `password`) VALUES
 (3, 'eheh', '$2y$10$kBPcUEC8EfTdk.x4J5zKpOErgLWPgxqo/PUs0gsKChUM46YVzCH..'),
 (4, 'hehe', '$2y$10$3G4xKNZdG6GpbgNpqWG9YuRYjKsVOjZrVc41Yf30t8GJwwmoaXDti'),
 (5, 'hiha', '$2y$10$Aiv9kT6rfKdqnK57cGzlbeFko/CDYCo0Lj2ASsGnh2EJfuEEPjiPm'),
-(6, 'admin', 'admin'),
-(7, 'admin02', '$2y$10$bHPmVSuX1ujrkXDSeCvfb.16LUGia6nMa/kjpg7CnrVWsdbakS1lS');
+(6, 'admin', '$2y$10$Ql/LwV3SEMrqO1hdaTnT8.ZD62MCw.1NIydmxMplKx4PBW//8ftqu');
 
 --
 -- Indexes for dumped tables
@@ -117,7 +114,7 @@ ALTER TABLE `tbl_user`
 -- AUTO_INCREMENT for table `tbl_user`
 --
 ALTER TABLE `tbl_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -40,5 +40,3 @@
 - selanjutnya bisa dilihat scrip.js hehe
 - hilangkan button cari
 - tambah icon loader.gif, simpan gambar di folder img, panggil di index.php, ubah script.js
-
-
