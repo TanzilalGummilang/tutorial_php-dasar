@@ -1,7 +1,7 @@
 <?php 
 
 // koneksi ke database
-$conn = mysqli_connect("localhost", "root", "", "db_chelsea");
+$conn = mysqli_connect("localhost", "root", "", "db_wpu_php_dasar");
 
 function query($query){
 	global $conn;

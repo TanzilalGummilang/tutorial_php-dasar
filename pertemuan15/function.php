@@ -1,7 +1,7 @@
 <?php 
 
 // koneksi ke database db_chelsea
-$conn = mysqli_connect("localhost", "root", "", "db_chelsea");
+$conn = mysqli_connect("localhost", "root", "", "db_wpu_php_dasar");
 
 
 // menampilkan isi database ke index.php
